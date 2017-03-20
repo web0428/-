@@ -1,0 +1,129 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button
+form,fieldset,input,textarea,p,blockquote,th,td,img{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font:14px/24px 微软雅黑;
+	color: #333;
+	background: url(../img/background.jpg);
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: both;}
+.center_box{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+div.nr{
+	width: 1200px;
+	height: 560px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 50%;
+	margin-top:-280px;
+}
+.center_box .nr #header{
+	width: 144px;
+	height: 560px;
+	background: #151515;
+}
+.center_box .nr #header .logo2{
+	width: 88px;
+	height: 26px;
+	display: block;
+	margin: 18px auto 30px;
+}
+.center_box .nr #header .yhnr{
+	height: 60px;
+	width: 144px;
+	margin: 0 auto;
+}
+.center_box .nr #header .yhnr .tx2{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	left: 14px;
+}
+.center_box .nr #header .yhnr .yh2{
+	color: white;
+	line-height: 60px;
+	display: block;
+	position: relative;
+	right: 14px;
+}
+.center_box .nr #header .daohang{
+	margin-top: 60px;
+}
+.center_box .nr #header .daohang li.dhnr .a1{
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 88px;
+	padding:10px 28px;
+	display: block;
+	overflow: hidden;
+}
+.center_box .nr #header .daohang li.dhnr{
+	margin-bottom: 36px;
+}
+.center_box .nr #header .daohang li.dhnr .a1 .dhnr2{
+	padding-left: 6px;
+}
+.center_box .nr #header .daohang li.dhnr .a1:hover{
+	background: #2C3E50;
+}
+.center_box .nr #header .daohang li.dhnr .a1 img{
+	position: relative;
+	top: 2px;
+}
+.center_box .nr #content{
+	width: 1056px;
+	height: 560px;
+	background: #ffffff;
+}
+.center_box .nr #content .toub{
+	height: 60px;
+	border-bottom: 1px solid #151515;
+}
+.center_box .nr #content .toub .search_btn{
+	outline: none;
+	width: 130px;
+	height: 24px;
+	border: 1px solid #6d6d6d;
+	padding-left: 26px;
+	background: url(../img/search.png) no-repeat 4px,10px;
+	margin-left: 14px;
+	margin-top: 18px;
+}
+.center_box .nr #content .toub .tcdl{
+	position: absolute;
+	top: 10px;
+	right: 160px;
+	/*border: 1px solid red;*/
+	width: 130px;
+	height: 40px;
+}
+.center_box .nr #content .toub .tcdl .yh1{
+	padding-left: 6px;
+	margin-bottom: 10px;
+	position: relative;
+	bottom: 0px;
+	/*vertical-align: middle;*/
+	
+}
+.center_box .nr #content .toub .tcdl img{
+	/*border: 1px solid green;*/
+	/*vertical-align:bottom;*/
+	
+	
+}

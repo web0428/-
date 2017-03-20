@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-decoration: none;
+}
+body{
+	background: url(../img/images/bgimg.png) no-repeat;
+}
+
+.content{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 100px;
+	overflow: hidden;
+}
+.content_left{
+	float: left;
+	width: 12.5%;
+	background: #151515;
+	height: 100%;
+	color: #fff;
+}
+.person_img{
+	height: 40px;
+	margin:0 auto;
+}
+.person_img img{
+	float: left;
+	margin-left: 18px;
+}
+.person_img span{
+	display:block;
+	float: left;
+	font-size: 10px;
+	line-height: 62px;
+	margin-left:4px;
+}
+.nav_list ul{
+}
+.nav_list li {
+	list-style: none;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.nav_list li:hover{
+	background: #2C3E50;
+
+}
+.nav_list li img{
+	width: 14px;
+	height: 14px;
+	vertical-align:middle;
+	margin-left: 32px;
+}
+.nav_list li span{
+	font-size: 14px;
+	color: #fff;
+}
+.content_right{
+	float: left;
+	height: 100%;
+	width:87.5%;
+}
+.right_header{
+	height: 43px;
+	width: 100%;
+	border-bottom: #404040 1px solid;
+	overflow: hidden;
+}
+.search{
+	width: 150px;
+	position: relative;
+	height: 20px;
+	padding-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+.search img{
+	position: absolute;
+	top: 13px;
+	left: 2px;
+}
+.search input{
+	width: 150px;
+	height: 20px;
+	padding-left: 20px;
+	line-height: 20px;
+}
+
+.user{
+	float: right;
+	padding-top: 6px;
+	margin-right: 100px;
+
+}
+.user img{
+	height: 30px;
+	width: 30px;
+	vertical-align:bottom;
+}
+.user span{
+	font-size: 14px;
+}
+.back{
+	float: right;
+	padding-top: 12px;
+	margin-right: 20px;
+}
+.back img{
+	vertical-align: bottom;
+	height: 19px;
+	width: 19px;
+}
+.back span{
+	font-size: 14px;
+}
+.tab{
+	height: 20px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.tab li{
+	list-style: none;
+	float: left;
+	height: 20px;
+	margin-left: 20px;
+	width: 80px;
+	text-align: center;
+}
+
+.tab li img{
+	height: 12px;
+	height: 12px;
+}
+.tab li span{
+	font-size: 12px;
+	color: #000;
+	line-height: 20px;
+	height: 20px;
+}
+.active,.active a span{
+	background: #2B2B2B;
+	color: #fff;
+}
+.right_content{
+	width: 94%;
+	border:1px solid #292929;
+	height: 350px;
+	margin-left: 20px;
+}
+.inbox{
+	float: left;
+	width: 75%;
+}
+.inbox h3{
+	font-weight: normal;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+.inbox h3 span{
+	font-size: 12px;
+}
+.contacts{
+	float: left;
+	width: 25%;
+}

@@ -1,0 +1,27 @@
+table td,table span{
+	height: 30px;
+	line-height: 25px;
+	font-size: 14px;
+}
+table img{
+	vertical-align: middle;
+}
+.inbox {
+    width: 85%;
+}
+.paging{
+	float: right;
+	margin-right: 25px;
+	margin-top: 9px;
+}
+.paging span{
+	font-size: 12px;
+	margin-right: 10px;
+}
+.next{
+	text-decoration: underline;
+}
+.contacts{
+	width: 15%;
+	float: left;
+}

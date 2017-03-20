@@ -1,0 +1,97 @@
+div.login1{
+	width: 530px;
+	height: 300px;
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -265px;
+}
+div.login1 div.logo_bg{
+	width: 144px;
+	height: 300px;
+	background: #151515;
+	overflow: hidden;
+}
+div.login1 div.logo_bg img.logo{
+	width: 112px;
+	height: 32px;
+	display: block;
+	margin: 134px auto;
+}
+div.login_bg{
+	width: 386px;
+	height: 300px;
+	background: #ffffff;
+}
+div.login_bg form{
+	margin-top: 43px;
+	position: relative;
+}
+div.login_bg .zh{
+	display: block;
+	width: 268px;
+	height: 34px;
+	margin: 0 auto 14px;
+	border: 1px solid #6d6d6d;
+	color: #6d6d6d;
+	padding-left: 8px;
+	outline: none;
+}
+div.login_bg .yzm{
+	display: block;
+	width: 148px;
+	height: 34px;
+	margin: 14px 0 10px 54px;
+	border: 1px solid #6d6d6d;
+	color: #6d6d6d;
+	padding-left: 8px;
+	outline: none;
+}
+div.login_bg .yzmt{
+	position: absolute;
+	top: 104px;
+	right: 66px;
+}
+div.login_bg .shuaxin{
+	position: absolute;
+	top: 110px;
+	right: 30px;
+	width: 17px;
+	height: 16px;
+	background: url(../img/shuaxin.png);
+	border: none;
+	outline: none;
+}
+div.login_bg .jzzh{
+	position: relative;
+	top: 2px;
+}
+div.login_bg .label1{
+	color: #2c3e50;
+	position: absolute;
+	font-size: 12px;
+	top: 140px;
+	left: 54px;
+}
+div.login_bg .label1 span{
+	color: #2C3E50;
+	padding-left: 5px;
+}
+div.login_bg .wjmm{
+	font-size: 12px;
+	position: absolute;
+	top: 140px;
+	left: 156px;
+	text-decoration: underline;
+}
+div.login_bg .btn_login{
+	width: 150px;
+	height: 36px;
+	display: block;
+	margin: 33px auto 0;
+	background: #2C3E50;
+	color: white;
+	border: none;
+	outline: none;
+}

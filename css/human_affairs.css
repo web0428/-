@@ -1,0 +1,47 @@
+table td,table span{
+	height: 30px;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.paging{
+	float: right;
+	margin-right: 25px;
+	margin-top: 9px;
+}
+.paging span{
+	font-size: 12px;
+	margin-right: 10px;
+}
+.next{
+	text-decoration: underline;
+}
+.notice{
+	width: 220px;
+	height: 121px;
+	border: 1px solid #292929;
+	margin-top: 11px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.notice p{
+	margin: 0 auto;
+	font-size: 14px;
+	width: 96%;
+	border-bottom:1px solid #292929;
+	height: 25px;
+	line-height: 25px;
+
+}
+.notice_word,.notice li{
+	font-size: 12px;
+	width: 96%;
+	margin:0 auto;
+	color: #6C6C6C;
+}
+.notice_word span{
+	font-size: 12px;
+	margin-right: 5px;
+	text-decoration: underline;
+	color: #6C6C6C;
+}
